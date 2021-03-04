@@ -1,0 +1,25 @@
+{
+  "name": "graphql-express-example",
+  "version": "1.0.0",
+  "description": "A sample implementation of graphQL in the expressJs web framework using express-graphQL. Connected to a neo4j database using a neo4j driver.",
+  "main": "src/start.js",
+  "scripts": {
+    "compile": "tsc -p ./",
+    "serve": "tsc -p ./ --watch",
+    "start": "npm run compile && node src/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sebenns/express-graphql-example.git"
+  },
+  "author": "Sebastian Enns",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.4.0",
+    "graphql-tools": "^7.0.2",
+    "neo4j-driver": "^4.2.1",
+    "typescript": "^4.1.3"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "SERVER_PORT": "8000",
+  "NEO4J": {
+    "URL" : "neo4j://localhost",
+    "USERNAME" : "neo4j",
+    "PASSWORD": "password"
+  }
+}
